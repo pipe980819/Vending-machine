@@ -1,0 +1,23 @@
+{
+  "name": "Vending-machine",
+  "version": "1.0.0",
+  "description": "Test repo for exploration of CI/CD pipelines",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsanch89/Vending-machine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsanch89/Vending-machine/issues"
+  },
+  "homepage": "https://github.com/jsanch89/Vending-machine#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
