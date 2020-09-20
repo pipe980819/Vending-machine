@@ -8,5 +8,5 @@ test('prices "papas margarita"', () => {
 
 test('exchange "papas margarita, 5000"', () => {
   expect(prices.exchange('Papas margaritas', 5000))
-    .toBe(2500);
+    .toBe(2700);
 });
