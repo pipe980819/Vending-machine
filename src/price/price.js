@@ -5,3 +5,7 @@ const prices = {
 exports.productPrice = (product) => {
   return prices[product];
 }
+
+exports.exchange = (product, pay) => {
+  return pay - prices[product];
+}
