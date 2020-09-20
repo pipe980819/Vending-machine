@@ -2,5 +2,5 @@ const prices = require('./price');
 
 test('prices "papas margarita"', () => {
   expect(prices.productPrice('Papas margaritas'))
-    .toBe(2400);
+    .toBe(2300);
 })
