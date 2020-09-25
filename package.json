@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jsanch89/Vending-machine#readme",
   "devDependencies": {
+    "eslint": "^7.9.0",
     "jest": "^26.4.2"
   }
 }
