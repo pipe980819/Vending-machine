@@ -2,7 +2,13 @@ const express = require('express');
 
 const priceService = require('./price/price');
 
+const cors = require('cors');
+const helmet = require('helmet');
+
 const app = express();
+
+app.use(cors);
+app.use(helmet);
 
 app.get('/product/:id', (req, res) => {
   const productId = req.params.id;
@@ -10,4 +16,9 @@ app.get('/product/:id', (req, res) => {
   res.send({ price });
 });
 
-app.listen(8081);
+app.listen(8081, (err) => {
+  if (!err) {
+    console.log('running');
+  }
+
+});
