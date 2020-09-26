@@ -39,6 +39,6 @@ jobs:
     - name: Build
       run: npm run build --if-present
     - name: Analysis
-      run: npm test
+      run: npm run eslint
       env:
         CI: true
