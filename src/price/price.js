@@ -10,3 +10,7 @@ exports.productPrice = (product) => {
 exports.exchange = (product, pay) => {
   return pay - prices[product].price;
 };
+
+exports.products = () => {
+  return prices;
+}
