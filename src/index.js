@@ -16,9 +16,12 @@ app.get('/product/:id', (req, res) => {
   res.send({ price });
 });
 
+app.get('/products', (req, res) => {
+  res.send(priceService.products());
+});
+
 app.listen(8080, (err) => {
   if (!err) {
     console.log('running');
   }
-
 });
